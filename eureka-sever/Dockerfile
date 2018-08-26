@@ -5,4 +5,4 @@ CMD ["mkdir", "/app"]
 ADD ./target/eureka-sever-1.4.0.RELEASE.jar /app/
 CMD ["java", "-Xmx200m", "-jar", "/app/eureka-sever-1.4.0.RELEASE.jar"]
 
-EXPOSE 4000
+EXPOSE 7071
