@@ -19,8 +19,8 @@ public class ConsumerController {
 
     @RequestMapping(value = "/sub", method = RequestMethod.GET)
     public String sub(@RequestParam Integer a,@RequestParam Integer b) {
-    	this.loadBalancerClient.choose("service-B");
-        return restTemplate.getForEntity("http://service-B/sub?a="+a+"&b="+b, String.class).getBody();
+    	this.loadBalancerClient.choose("serviceb");
+        return restTemplate.getForEntity("http://serviceb/sub?a="+a+"&b="+b, String.class).getBody();
     	
     }
     
