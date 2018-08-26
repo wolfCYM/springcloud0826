@@ -4,6 +4,4 @@
         tag: latest
 
     ci:
-        - cp  eureka-sever/alaudaci/settings.xml  /etc/maven/
-        - cd  eureka-sever
-        - mvn clean package 
+        -  maven clean package -s eureka-server/alaudaci/settings.xml
