@@ -1,0 +1,9 @@
+    version: "0.1.0"
+    pre_ci_boot: 
+        image: index.alauda.cn/demo100/piggyjava 
+        tag: latest
+
+    ci:
+        - cp  ribbon/alaudaci/settings.xml  /etc/maven/
+        - cd  ribbon
+        - mvn clean package 
