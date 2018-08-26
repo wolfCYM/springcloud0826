@@ -5,7 +5,7 @@
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>1.4.0.RELEASE</version>
   </parent>
-  <artifactId>service-B3</artifactId>
+  <artifactId>serviceb3</artifactId>
     <version>1.0.0</version>
   <packaging>jar</packaging>
 
