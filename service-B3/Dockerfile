@@ -7,4 +7,4 @@ CMD ["mkdir", "/app"]
 ADD ./target/service-B3-1.0.0.jar.jar /app/
 CMD ["java", "-Xmx200m", "-jar", "/app/service-B3-1.0.0.jar"]
 
-EXPOSE 8080
+EXPOSE 7079
