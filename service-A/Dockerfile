@@ -4,7 +4,7 @@ FROM index.alauda.cn/demo100/piggyjava
 MAINTAINER Alexander Lukyanchikov <sqshq@sqshq.com>
 
 CMD ["mkdir", "/app"]
-ADD ./target/service-A-1.0.0.jar /app/
-CMD ["java", "-Xmx200m", "-jar", "/app/service-A-1.0.0.jar"]
+ADD ./target/servicea-1.0.0.jar /app/
+CMD ["java", "-Xmx200m", "-jar", "/app/servicea-1.0.0.jar"]
 
 EXPOSE 2222
