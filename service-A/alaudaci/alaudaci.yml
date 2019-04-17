@@ -7,4 +7,5 @@
         - cp  service-A/alaudaci/settings.xml  /etc/maven/
         - cd  service-A
         - mvn clean package
+        - cp ./target/*.jar $ALAUDACI_UPLOAD_DIR
         
